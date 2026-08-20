@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Build / C++ extension artifacts
+*.pyd
+*.so
+*.dll
+*.o
+*.obj
+*.exe
+.rendered.*
+
+# Data caches and training runs
+datasets/*/cache/
+logs/
+runs/
+w/
+output/
+
+# Saved model artifacts
+*.pt
+*.pth
+*.ckpt
+*.npz
+embeddings.pt
+
+# Large / regenerable dataset artifacts
+datasets/*/semantic_signature_embeddings.jsonl
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# TensorBoard
+runs/
+
+# Environment
+.env
+venv/
+env/
+.venv/
